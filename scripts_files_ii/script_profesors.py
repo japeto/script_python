@@ -8,7 +8,7 @@ df1.rename(index={0:"a",1:"b",2:"c",3:"d",4:"e"})
 df1.rename(index={"a":"a",1:"b",2:"c",3:"d",4:"e"})
 df1
 
-docentes=pd.read_csv('/Users/macbookpro/Desktop/ejercicios/SessionNo3/scripts_measures/Docentes_De_Planta.csv')
+docentes=pd.read_csv('Docentes_De_Planta.csv')
 docentes.head()
 docentes.tail()
 docentes.columns
